@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+<body>
+    <style>
+
+* {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: gold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        section.content {
+            background-color: yellow;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50pt;
+            margin-bottom: 20px;
+        }
+
+        form {
+            background-color: rgb(255, 255, 255);
+            width: 70%;
+            min-width: 500px;
+            height: 50px;
+            line-height: 50px;
+            margin: 0 auto;
+            text-align: center;
+            border-radius: 100%;
+        }
+
+        form span.search-icon {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+        }
+
+        form input.search-entry {
+            width: 90%;
+            height: 30px;
+            border: none;
+            border-radius: 30px;
+            background-color: white;
+            padding: 0 10px ;
+        }
+
+        form input.search-entry:focus {
+            outline: none;
+        }
+
+        form > input.search-btn {
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            border: none;
+            background-color: lightblue;
+        }
+
+        div.entry-group {
+            display: inline-block;
+            width: calc(40px + 80%);
+            height: 38px;
+            background-color: white;
+            border: 1px green solid;
+            border-radius: 19px;
+            line-height: 38px;
+        }
+
+        img {
+            display: block;
+            margin: 0px auto;
+            width: 300px;
+            border-top: 15px yellow solid;
+            height: 300px;
+            
+        }
+
+
+    
+    </style>
+    <header>
+
+    </header>
+
+
+    <section class="content">
+        <img src="BINGBONG.png" logo="88">
+        <h1><span style="color: red;">Bing</span><span style="color:blue;">Bong</span></h1>
+        <form action="https://www.google.com/search">
+            <div class="entry-group">
+        <input type="button" value="🙋‍♂️" class="search-icon">
+        <input type="text" name="q" id="" placeholder="Search Here" class="search-entry">
+        
+    </div>
+    <input type="submit" value="🧐" class="search-btn">
+    </form>
+    </section>
+
+
+    <footer>
+
+    </footer>
+
+
+</body>
+</html>
